@@ -25,7 +25,7 @@ There are two ways to edit the book:
    
    ```
    - Make edits to the files on a local computer.
-   - Upload the files through a git push:
+   - Upload the files through a git push (as detailed [here](https://jupyterbook.org/start/publish.html#create-an-online-repository-for-your-book)):
    ```
    cd /Users/petercharlton/Documents/GitHub/project_guidelines
    git add ./*
@@ -33,12 +33,12 @@ There are two ways to edit the book:
    git push
    
    ```
-   - Build the book locally: 
+   - Build the book locally (as detailed [here](https://jupyterbook.org/start/build.html#build-your-books-html)): 
    ```
    cd ../.
    jupyter-book build project_guidelines
    ```
-   - Upload the built book to GitHub pages:
+   - Upload the built book to GitHub pages (as detailed [here](https://jupyterbook.org/start/publish.html#publish-your-book-online-with-github-pages)):
    ```
    cd project_guidelines
    ghp-import -n -p -f _build/html
