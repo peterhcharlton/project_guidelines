@@ -4,8 +4,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; Project Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
+    <title>About this Book &#8212; Project Guidelines</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -48,9 +49,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="author" title="About these documents" href="about.html" />
-    <link rel="index" title="Index" href="#" />
+    <link rel="author" title="About these documents" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Journal Publication" href="journal-publication.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -87,7 +89,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="aims.html">
    Aims
@@ -165,8 +167,8 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="about.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    About this Book
   </a>
  </li>
@@ -203,6 +205,23 @@ const thebe_selector_output = ".output, .cell_output"
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/about.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -214,10 +233,12 @@ const thebe_selector_output = ".output, .cell_output"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/peterhcharlton/project_guidelines/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/peterhcharlton/project_guidelines/issues/new?title=Issue%20on%20page%20%2Fabout.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
+        <a class="edit-button" href="https://github.com/peterhcharlton/project_guidelines/edit/master/docs/about.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
 </div>
 
@@ -235,6 +256,29 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#authors">
+   Authors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creating-the-book">
+   Creating the book
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#editing-the-book">
+   Editing the book
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -243,13 +287,67 @@ const thebe_selector_output = ".output, .cell_output"
         
               <div>
                 
+  <section id="about-this-book">
+<h1>About this Book<a class="headerlink" href="#about-this-book" title="Permalink to this headline">¶</a></h1>
+<section id="authors">
+<h2>Authors<a class="headerlink" href="#authors" title="Permalink to this headline">¶</a></h2>
+<p>This initial draft was written by <a class="reference external" href="https://peterhcharlton.github.io">Peter H. Charlton</a>.</p>
+<p>It is hoped that it can become a collaborative project involving additional contributors.</p>
+</section>
+<section id="creating-the-book">
+<h2>Creating the book<a class="headerlink" href="#creating-the-book" title="Permalink to this headline">¶</a></h2>
+<p>The book was created as follows (largely following the instructions provided <a class="reference external" href="https://jupyterbook.org/start/your-first-book.html">here</a>):</p>
+<ol class="simple">
+<li><p>Install Jupyter book via conda-forge (as detailed <a class="reference external" href="https://jupyterbook.org/start/overview.html">here</a>)</p></li>
+<li><p>Create a template book (as detailed <a class="reference external" href="https://jupyterbook.org/start/create.html">here</a>)</p></li>
+<li><p>Modify the template to include content from Peter Charlton’s original project guidelines (available <a class="reference external" href="https://peterhcharlton.github.io/info/tools/project_guidelines.html">here</a>).</p></li>
+<li><p>Build the book (as detailed <a class="reference external" href="https://jupyterbook.org/start/build.html">here</a>).</p></li>
+</ol>
+</section>
+<section id="editing-the-book">
+<h2>Editing the book<a class="headerlink" href="#editing-the-book" title="Permalink to this headline">¶</a></h2>
+<p>There are two ways to edit the book:</p>
+<ol>
+<li><p><strong>Online:</strong></p></li>
+<li><p><strong>On a local computer:</strong> This approach is only possible for administrators:</p>
+<ul class="simple">
+<li><p>Make edits to the files on a local computer.</p></li>
+<li><p>Upload the files through a git push:</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">add</span> <span class="o">./*</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;commit message&quot;</span>
+<span class="n">git</span> <span class="n">push</span>
 
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+</pre></div>
 </div>
+<ul class="simple">
+<li><p>Build the book locally: <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">build</span> <span class="pre">project_guidelines</span></code></p></li>
+<li><p>Upload the built book to GitHub pages: <code class="docutils literal notranslate"><span class="pre">ghp-import</span> <span class="pre">-n</span> <span class="pre">-p</span> <span class="pre">-f</span> <span class="pre">_build/html</span></code></p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -260,6 +358,15 @@ const thebe_selector_output = ".output, .cell_output"
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="journal-publication.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Journal Publication</p>
+            </div>
+        </a>
+    </div>
 
 </div>
         

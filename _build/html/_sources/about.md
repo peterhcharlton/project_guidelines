@@ -20,22 +20,13 @@ The book was created as follows (largely following the instructions provided [he
 There are two ways to edit the book:
 1. **Online:**
 2. **On a local computer:** This approach is only possible for administrators:
-   - Clone the repository
-   ```
-   
-   ```
    - Make edits to the files on a local computer.
    - Upload the files through a git push:
    ```
-   cd /Users/petercharlton/Documents/GitHub/project_guidelines
    git add ./*
    git commit -m "commit message"
    git push
    
    ```
    - Build the book locally: ``jupyter-book build project_guidelines``
-   - Upload the built book to GitHub pages:
-   ```
-   cd project_guidelines
-   ghp-import -n -p -f _build/html
-   ```
+   - Upload the built book to GitHub pages: ``ghp-import -n -p -f _build/html``
