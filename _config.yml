@@ -1,11 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Project Guidelines
-author: Peter H. Charlton
-copyright: "2022"
-exclude_patterns            : [_build, .DS_Store]
-logo: icon.png
+title: My sample book
+author: The Jupyter Book Community
+logo: logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -15,7 +13,7 @@ execute:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: project_guidelines.tex
+    targetname: book.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -32,4 +30,3 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  use_edit_page_button: true

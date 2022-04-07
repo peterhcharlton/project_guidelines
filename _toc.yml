@@ -2,19 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
 - file: intro
-- file: aims
-- file: schedule
-- file: tasks
+- file: content
   sections:
-    - file: pre-reading
-    - file: learning-objectives
-    - file: literature-review
-    - file: research-plan
-    - file: data-access
-    - file: experiments
-    - file: project-report
-    - file: abstract
-    - file: project-presentation
-    - file: conference-submission
-    - file: journal-publication
-- file: about
+    - file: markdown
+    - file: notebooks
