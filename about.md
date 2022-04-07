@@ -29,11 +29,15 @@ There are two ways to edit the book:
    ```
    cd /Users/petercharlton/Documents/GitHub/project_guidelines
    git add ./*
-   git commit -m "commit message"
+   git commit -m "brief edit"
    git push
    
    ```
-   - Build the book locally: ``jupyter-book build project_guidelines``
+   - Build the book locally: 
+   ```
+   cd ../.
+   jupyter-book build project_guidelines
+   ```
    - Upload the built book to GitHub pages:
    ```
    cd project_guidelines
