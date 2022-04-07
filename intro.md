@@ -1,7 +1,10 @@
-Welcome to your Jupyter Book
+Introduction
 ============================
 
-This is a small sample book to give you a feel for how book content is
-structured.
+The project guidelines described in his book are designed for 6-week research projects. It includes:
 
-Check out the content pages bundled with this sample book to get started.
+- [Aims](../aims): Overall aims of a student research project
+- [Schedule](../schedule): A schedule for a 6-week research project
+- [Tasks](../tasks): The common tasks conducted during a research project, such as performing a literature review and writing an abstract.
+
+abc
