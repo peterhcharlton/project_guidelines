@@ -4,8 +4,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; Project Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
+    <title>Data Access &#8212; Project Guidelines</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -49,8 +50,10 @@ const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="author" title="About these documents" href="about.html" />
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Experiments" href="experiments.html" />
+    <link rel="prev" title="Research Plan" href="research-plan.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -87,7 +90,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="aims.html">
    Aims
@@ -98,16 +101,16 @@ const thebe_selector_output = ".output, .cell_output"
    Schedule
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="tasks.html">
    Tasks
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="pre-reading.html">
      Pre-reading
@@ -128,8 +131,8 @@ const thebe_selector_output = ".output, .cell_output"
      Research Plan
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="data-access.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Data Access
     </a>
    </li>
@@ -203,6 +206,23 @@ const thebe_selector_output = ".output, .cell_output"
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/data-access.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -214,10 +234,12 @@ const thebe_selector_output = ".output, .cell_output"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/peterhcharlton/project_guidelines/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/peterhcharlton/project_guidelines/issues/new?title=Issue%20on%20page%20%2Fdata-access.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
+        <a class="edit-button" href="https://github.com/peterhcharlton/project_guidelines/edit/master/docs/data-access.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
 </div>
 
@@ -243,13 +265,41 @@ const thebe_selector_output = ".output, .cell_output"
         
               <div>
                 
+  <section id="data-access">
+<h1>Data Access<a class="headerlink" href="#data-access" title="Permalink to this headline">¶</a></h1>
+<p><em>Weeks 1-2</em></p>
+<p>It is likely that you will use one or more datasets in your project. These could be publicly available datasets, or private datasets hosted within an institution:</p>
+<ul class="simple">
+<li><p><strong>Publicly available datasets</strong>: If you are using a publicly available dataset (such as those listed <a class="reference external" href="https://peterhcharlton.github.io/info/datasets">here</a>), then hopefully it should be relatively straightforward to access the data. I have provided some MATLAB code to help collate some of these datasets into suitable formats for analysis <a class="reference external" href="https://peterhcharlton.github.io/info/datasets">here</a>.</p></li>
+<li><p><strong>Private datasets</strong>: If you are using a private dataset (such as the SAFER dataset) then you may need remote access to the data. Discuss this with me, and if you do require remote access to a dataset hosted in Cambridge, then it is likely you will need to follow the instructions provided by the Clinical School Computing Service (<a class="reference external" href="https://confluence.medschl.cam.ac.uk/display/FAQ">here</a>) in order to gain remote access. Specifically, you will need:</p>
+<ul>
+<li><p><strong>A suitable login</strong>: If you are using a temporary account then you will need to reset its password before using it <a class="reference external" href="https://sspp.medschl.cam.ac.uk/">here</a>.</p></li>
+<li><p><strong>A VPN connection</strong>: You will need to connect to a VPN in order to have permission to access the system. See the instructions <a class="reference external" href="https://confluence.medschl.cam.ac.uk/pages/viewpage.action?pageId=12094187">here</a> on setting up a VPN. Note that you will be using the <a class="reference external" href="https://confluence.medschl.cam.ac.uk/display/FAQ/New+VPN+Client+settings+for+Biomedical+Campus">settings for the Biomedical Campus</a>. If you have been given a temporary login then you will use that to login to the VPN.</p></li>
+<li><p><strong>Remote desktop software</strong>: If you are using a Windows computer at home, then see <a class="reference external" href="https://confluence.medschl.cam.ac.uk/display/FAQ/Remotely+Connect+to+Your+Work+PC#RemotelyConnecttoYourWorkPC-UsingRemoteDesktopConnectionfromhome">these instructions</a> on how to remotely connect to the Cambridge computer from your home computer. Ask me for the name of the Cambridge computer that you are connecting to, and if you have been given a temporary login then use that to login to the computer. If you are using a Mac at home, then you will need to use a different piece of Remote desktop connection software - ‘Microsoft Remote Desktop’, which is free in the App Store.</p></li>
+</ul>
+</li>
+</ul>
+</section>
 
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
-</div>
-
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -260,6 +310,24 @@ const thebe_selector_output = ".output, .cell_output"
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="research-plan.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Research Plan</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="experiments.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Experiments</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         

@@ -4,8 +4,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; Project Guidelines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
+    <title>Experiments &#8212; Project Guidelines</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -49,8 +50,10 @@ const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="author" title="About these documents" href="about.html" />
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Project Report" href="project-report.html" />
+    <link rel="prev" title="Data Access" href="data-access.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -87,7 +90,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="aims.html">
    Aims
@@ -98,16 +101,16 @@ const thebe_selector_output = ".output, .cell_output"
    Schedule
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="tasks.html">
    Tasks
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="pre-reading.html">
      Pre-reading
@@ -133,8 +136,8 @@ const thebe_selector_output = ".output, .cell_output"
      Data Access
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="experiments.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Experiments
     </a>
    </li>
@@ -203,6 +206,23 @@ const thebe_selector_output = ".output, .cell_output"
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/experiments.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -214,10 +234,12 @@ const thebe_selector_output = ".output, .cell_output"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/peterhcharlton/project_guidelines/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/peterhcharlton/project_guidelines/issues/new?title=Issue%20on%20page%20%2Fexperiments.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
+        <a class="edit-button" href="https://github.com/peterhcharlton/project_guidelines/edit/master/docs/experiments.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
 </div>
 
@@ -243,13 +265,40 @@ const thebe_selector_output = ".output, .cell_output"
         
               <div>
                 
+  <section id="experiments">
+<h1>Experiments<a class="headerlink" href="#experiments" title="Permalink to this headline">¶</a></h1>
+<p><em>Weeks 3-5</em></p>
+<p>We will discuss your planned experiments when discussing your <a class="reference internal" href="research-plan.html"><span class="doc std std-doc">Research Plan</span></a>. It is likely that you will need to obtain new skills and develop new skills to carry out the experiments. Here are a few general hints, although much of the experimental methodology will be particular to your project, so is best discussed between us.</p>
+<ul class="simple">
+<li><p><strong>Answering research questions:</strong> Your experiment(s) should aim to answer one or more research questions (as listed in your <a class="reference internal" href="research-plan.html"><span class="doc std std-doc">Research Plan</span></a>). In general, it is better to answer one question well, than to answer several questions less well. The remaining hints are designed to help you answer research questions well.</p></li>
+<li><p><strong>Understanding the dataset:</strong> It will take time to understand the dataset(s) you are using. This is an important part of the project, and investing time at this stage will make conducting the experiments much easier.</p></li>
+<li><p><strong>Designing appropriate analyses:</strong> Once you have gained an understanding of the dataset, you will be in a position</p></li>
+<li><p><strong>Curating the dataset:</strong> You will probably only need particular variables from the dataset for your research. You may also only need data from particular subjects who meet inclusion criteria. Furthermore, you may need to derive new variables from those in the dataset. I recommend taking time to curate the dataset to prepare it for the analyses. Document how you curated the dataset, and understand any assumptions made and their potential implications on the results (such as the criteria used for identifying subjects for inclusion, which may limit the generalisability of the conclusions to only subjects meeting those criteria).</p></li>
+<li><p><strong>Performing analyses:</strong> You will need to use statistical software such as Excel, MATLAB, GraphPad, or others, to perform the analyses. I recommend that you make the analyses as reproducible as possible. Firstly, make sure you keep a copy of the original data files, so that you can always get back to the original data. Secondly, if you know how to code, then consider creating a script to perform the analyses. This makes it easy to modify the methods you use if you decide to change them during the project.</p></li>
+<li><p><strong>Documenting analyses:</strong> Keep a record of your experiments: the methods you use, and the results you obtain. This can take many forms, such as paper notes, a logbook (the traditional way), or electronic notes (I use <a class="reference external" href="https://joplinapp.org/">Joplin</a>). The objective here is to be able to recall what you did, so that you can accurately document your methods in your project report. To this end, you may also find it helpful to write bullet point notes in your <a class="reference internal" href="project-report.html"><span class="doc std std-doc">Project Report</span></a> as you are conducting the experiment, to help you when writing up the report.</p></li>
+<li><p><strong>Discussing analyses:</strong> We will aim to meet at least once per week during the project. It would be helpful if you could summarise the work you have done on the analyses during these meetings. This will help me to provide specific guidance on your work.</p></li>
+</ul>
+</section>
 
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
-</div>
-
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -260,6 +309,24 @@ const thebe_selector_output = ".output, .cell_output"
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="data-access.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Data Access</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="project-report.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Project Report</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         
