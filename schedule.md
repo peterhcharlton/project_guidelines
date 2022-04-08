@@ -12,9 +12,7 @@ The following schedule is designed to allow students to gain experience at each 
 | Pre-project | [Project planning](../project-planning) <br> [Pre-reading](../pre-reading) |
 | 1 | [Learning objectives](../learning-objectives) <br> [Literature review](../literature-review) <br> [Research Plan](../research-plan) <br> [Data Access](../data-access) |
 | 2 | [Literature review](../literature-review) <br> [Research Plan](../research-plan) <br> [Data Access](../data-access) |
-| 3 | [Experiments](../experiments) <br> [Project Report](../project-report) |
-| 4 | [Experiments](../experiments) <br> [Project Report](../project-report) |
-| 5 | [Experiments](../experiments) <br> [Project Report](../project-report) |
+| 3-5 | [Experiments](../experiments) <br> [Project Report](../project-report) |
 | 6 | [Project Report](../project-report) <br> [Project Presentation](../project-presentation) <br> [Abstract](../abstract) |
 | Post-project | [Conference Submission](../conference-submission) <br> [Journal Publication](../journal-publication) |
 

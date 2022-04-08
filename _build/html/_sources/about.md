@@ -26,10 +26,13 @@ To contribute to this book, either:
 ## Creating the book
 
 The book was created as follows (largely following the instructions provided [here](https://jupyterbook.org/start/your-first-book.html)):
+```{dropdown} **Steps to create the book:** 
 1. Install Jupyter book via conda-forge (as detailed [here](https://jupyterbook.org/start/overview.html))
 2. Create a template book (as detailed [here](https://jupyterbook.org/start/create.html))
 3. Modify the template to include content from Peter Charlton's original project guidelines (available [here](https://peterhcharlton.github.io/info/tools/project_guidelines.html)).
 4. Build the book (as detailed [here](https://jupyterbook.org/start/build.html)).
+5. Publish the book online (storing the source files in a GitHub repository, and publishing the book using GitHub pages, as detailed [here](https://jupyterbook.org/start/publish.html)).
+```
 
 ## Editing the book
 
