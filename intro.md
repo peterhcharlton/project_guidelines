@@ -1,6 +1,8 @@
 Introduction
 ============================
 
+---
+
 ## Overview
 
 This book presents guidelines for 6-week research projects.
