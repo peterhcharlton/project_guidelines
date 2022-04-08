@@ -1,4 +1,4 @@
-# Writing an abstract
+# Writing an Abstract
 _Week 6_
 
 I suggest writing the abstract after finishing your Project Report, as it should summarise the entire study. An abstract can typically be structured to contain a few sentences on each of the following:
