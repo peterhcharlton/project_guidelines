@@ -6,6 +6,7 @@
 - file: schedule
 - file: tasks
   sections:
+    - file: project-planning
     - file: pre-reading
     - file: learning-objectives
     - file: literature-review
