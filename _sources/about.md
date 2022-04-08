@@ -21,7 +21,7 @@ To contribute to this book, either:
 - Hover over the ![GitHub-Mark](GitHub-Mark-32px.png) button at the top of the page, and click 'open issue' from the dropdown list that appears.
 - This will take you to GitHub, where you can post suggestions for improvement. You will require a GitHub login to do this.
 ```
-
+When contributing, please either contribute your own ideas/text, or clearly acknowledge where the original source of the ideas/text.
 
 ## Creating the book
 
