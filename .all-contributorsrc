@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "peterhcharlton",
+      "name": "Peter H Charlton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9865941?v=4",
+      "profile": "https://www.phpc.cam.ac.uk/people/pcu-group/researchers/peter-charlton/",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "project_guidelines",
+  "projectOwner": "peterhcharlton",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
