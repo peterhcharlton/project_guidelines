@@ -1,4 +1,4 @@
-# How to Contribute
+# Contributing to the book
 
 To contribute to this book, either:
 ```{dropdown} **1. Propose edits:** Follow these instructions to propose a specific change
