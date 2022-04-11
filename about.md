@@ -3,6 +3,18 @@ About this Book
 
 ## Authors
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.phpc.cam.ac.uk/people/pcu-group/researchers/peter-charlton/"><img src="https://avatars.githubusercontent.com/u/9865941?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter H Charlton</b></sub></a><br /><a href="#content-peterhcharlton" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
 This initial draft was written by [Peter H. Charlton](https://peterhcharlton.github.io).
 
 It is hoped that it can become a collaborative project involving additional contributors.
