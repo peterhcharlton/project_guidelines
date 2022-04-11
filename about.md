@@ -8,14 +8,12 @@ About this Book
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.phpc.cam.ac.uk/people/pcu-group/researchers/peter-charlton/"><img src="https://avatars.githubusercontent.com/u/9865941?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter H Charlton</b></sub></a><br /><a href="#content-peterhcharlton" title="Content">🖋</a></td>
+    <td align="center"><a href="https://peterhcharlton.github.io/"><img src="https://avatars.githubusercontent.com/u/9865941?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter H Charlton</b></sub></a><br /><a href="#content-peterhcharlton" title="Content">🖋</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-
-This initial draft was written by [Peter H. Charlton](https://peterhcharlton.github.io).
 
 It is hoped that it can become a collaborative project involving additional contributors.
 
@@ -56,7 +54,7 @@ There are two ways to edit the book:
 ```{dropdown} **2. Edit on a local computer:** Only open to project administrators
 - Clone the repository
 
-`cd /Users/petercharlton/Documents/GitHub/project_guidelines; git clone https://github.com/peterhcharlton/project_guidelines`
+`cd /Users/petercharlton/Documents/GitHub/; git clone https://github.com/peterhcharlton/project_guidelines`
 - Make edits to the files on a local computer.
 - Upload the files through a git push (as detailed [here](https://jupyterbook.org/start/publish.html#create-an-online-repository-for-your-book)):
 
