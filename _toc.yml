@@ -19,3 +19,6 @@
     - file: conference-submission
     - file: journal-publication
 - file: about
+  sections:
+    - file: contributing
+    - file: maintenance
