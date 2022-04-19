@@ -11,4 +11,7 @@ To contribute to this book, either:
 - Hover over the ![GitHub-Mark](GitHub-Mark-32px.png) button at the top of the page, and click 'open issue' from the dropdown list that appears.
 - This will take you to GitHub, where you can post suggestions for improvement. You will require a GitHub login to do this.
 ```
+```{dropdown} **3. Email us:** 
+- You can email us your suggestions using the address [here](https://github.com/peterhcharlton/project_guidelines#contact).
+```
 When contributing, please either contribute your own ideas/text, or clearly acknowledge the original source of the ideas/text.
