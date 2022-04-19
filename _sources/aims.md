@@ -14,4 +14,4 @@ As a supervisor, it is important to support the student in achieving the learnin
 - "To develop and recognise the value of transferable skills."
 - "To consider potential career paths."
 
-_Source: Martin K and Blumenfeld T, 'Student Selected Components in General Practice', _[phpc.cam.ac.uk](https://www.phpc.cam.ac.uk/pcu/files/2014/04/KINNARY-Student-Selected-Components-in-General-Practice-1.pdf)_
+_Source: Martin K and Blumenfeld T, 'Student Selected Components in General Practice', [phpc.cam.ac.uk](https://www.phpc.cam.ac.uk/pcu/files/2014/04/KINNARY-Student-Selected-Components-in-General-Practice-1.pdf)_
