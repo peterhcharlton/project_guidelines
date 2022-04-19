@@ -10,7 +10,7 @@ This repository contains a Jupyter book called 'Project Guidelines', which prese
 **Contributions and feedback:** Contributions and feedback are most welcome: see the instructions for contributing [here](https://peterhcharlton.github.io/project_guidelines/contributing.html), or email us (contact details are provided below).
 
 ## Contact
-- [Use the GitHub Issues page](https://github.com/peterhcharlton/project_guidelines/issues), or 
+- Use the [GitHub Issues page](https://github.com/peterhcharlton/project_guidelines/issues), or 
 - Email us at: pc657@medschl.cam.ac.uk
 
 ## Contributors ✨
