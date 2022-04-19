@@ -11,7 +11,7 @@ This repository contains a Jupyter book called 'Project Guidelines', which prese
 
 ## Contact
 - [Use the GitHub Issues page](https://github.com/peterhcharlton/project_guidelines/issues), or 
-- Email us at: pc657 AT medschl.cam.ac.uk
+- Email us at: pc657@medschl.cam.ac.uk
 
 ## Contributors ✨
 
