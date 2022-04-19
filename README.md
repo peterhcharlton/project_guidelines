@@ -6,6 +6,9 @@
 This repository contains a Jupyter book called 'Project Guidelines', which presents guidelines for 6-week research projects.
 
 The book is available [here](https://peterhcharlton.github.io/project_guidelines/).
+
+Contributions and feedback are most welcome: see the instructions for contributing [here](https://peterhcharlton.github.io/project_guidelines/contributing.html), or [email us](https://peterhcharlton.github.io/#contact).
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
