@@ -35,6 +35,6 @@ Is the review well written? _Consider:_
 - Does the review contain an introduction and conclusion?
 - Is the content logically ordered?
 - Are the key messages clearly communicated?
-- Could its length be reduced without deteriment?
+- Could its length be reduced without detriment to the content?
 - Are key publications in the field referenced?
 - Spelling, grammar, paragraphs, formatting, subheadings, tables and figures
