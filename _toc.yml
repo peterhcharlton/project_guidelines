@@ -18,6 +18,9 @@
     - file: project-presentation
     - file: conference-submission
     - file: journal-publication
+- file: assessment
+  sections:
+    - file: assess-literature-review
 - file: about
   sections:
     - file: contributing
