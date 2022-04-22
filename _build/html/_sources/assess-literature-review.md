@@ -5,23 +5,23 @@ Consider the following when providing feedback on or assessing a literature revi
 ## Purpose
 - Is the purpose of the literature review clearly stated (preferably in an introduction)?
 
-## Methodology for identifying relevant literature
+## Identifying relevant literature
 - Have multiple databases / search engines been used?
 - Is the search methodology clearly reported, including databases / search engines, search terms, and the process for selecting publications for inclusion in the review?
 - How appropriate is the search methodology for the purposes of the literature review?
 
-## Evidence synthesis
+## Synthesising evidence
+- How well has the evidence been synthesised?
 - Are key messages identified from the literature?
 - Are studies suitably appraised by highlighting their relevance to the project whilst appreciating their limitations?
 
 ## Relevance to the project
-Does the review provide insights which are relevant to the project? Consider:
 - Does the review cover the key topics for the project? Consider:
    - Background to the clinical problem being tackled.
    - Current approaches to tackle the problem.
    - Potential future research directions to address the problem.
-- Does the review help inform the research questions?
-- Does the review provide ideas on how to conduct the experiments?
+- Does the review help inform the choice of research questions?
+- Does the review provide insights from the literature on the experimental methodology?
 - Does the review provide sufficient motivation for the project?
 
 ## Referencing
