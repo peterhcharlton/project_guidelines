@@ -8,5 +8,5 @@ The guidelines include:
 - [Schedule](../schedule): A schedule for a 6-week research project
 - [Tasks](../tasks): The common tasks conducted during a research project, such as performing a literature review and writing an abstract.
 - [Assessment](../assessment): Guidelines for assessing tasks conducted during a research project, such as a literature review.
-- [Contributing](../contributing): Details of how supervisors and students can contribute to the project.
+- [Contributing](../contributing): Details of how supervisors and students can contribute to the guidelines.
 
