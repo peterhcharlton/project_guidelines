@@ -21,6 +21,7 @@
 - file: assessment
   sections:
     - file: assess-literature-review
+- file: sscs
 - file: about
   sections:
     - file: contributing
