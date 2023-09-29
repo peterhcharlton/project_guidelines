@@ -55,6 +55,6 @@ If you are considering doing a research-based SSC, then you might consider:
 
 ## Accompanying presentation
 
-I presented these ideas in [this presentation](../talk/research-based-student-selected-components/). Here is a video of the presentation:
+I presented these ideas in [this presentation](http://peterhcharlton.github.io/talk/research-based-student-selected-components/). Here is a video of the presentation:
 
-{{< youtube pmAOZHEoBHU >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pmAOZHEoBHU?si=uIQrj466LgTjQXUK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
