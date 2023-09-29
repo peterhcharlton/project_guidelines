@@ -53,4 +53,8 @@ If you are considering doing a research-based SSC, then you might consider:
 - **Are you prepared to be proactive and solve problems yourself?** _You may encounter unexpected problems, and will be expected to try to resolve these yourself._
 - **Would the project meet your expectations?** _Consider what you would like to get out of the project (perhaps using [these objectives](./learning-objectives) as inspiration).
 
+## Accompanying presentation
 
+I presented these ideas in [this presentation](../talk/research-based-student-selected-components/). Here is a video of the presentation:
+
+{{< youtube pmAOZHEoBHU >}}
