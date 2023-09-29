@@ -51,7 +51,7 @@ If you are considering doing a research-based SSC, then you might consider:
 - **Are you willing to work largely independently?** _Academic research can involve periods of independent working, perhaps with only minimal contact time (e.g. a one hour meeting each week with a supervisor)._
 - **Are you happy to learn new skills?** _You may need to learn new skills to enable you to do the research, such as data analysis skills._
 - **Are you prepared to be proactive and solve problems yourself?** _You may encounter unexpected problems, and will be expected to try to resolve these yourself._
-- **Would the project meet your expectations?** _Consider what you would like to get out of the project (perhaps using [these objectives](./learning-objectives) as inspiration).
+- **Would the project meet your expectations?** _Consider what you would like to get out of the project (perhaps using [these objectives](./learning-objectives) as inspiration)._
 
 ## Accompanying presentation
 
